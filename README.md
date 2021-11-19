@@ -9,8 +9,8 @@ Please follow these steps one by one:
 1. Run "run.bat" <u>or</u> "main.py" files.
 2. You will get a message with "What mode do you want to use?" and 2 modes with numbers.
 3. You have to choose one of those modes.
-   - If you want to count GCD equation or select that mode type: "1" or "GCD".
-   - if you want to count LCM equation or select that mode type: "2" or "LCM".
+   - If you want to count GCD equation or select that mode, type: "1" or "GCD".
+   - if you want to count LCM equation or select that mode, type: "2" or "LCM".
 4. After input the first number of GCD or LCM.
 5. Then input the second number of GCD or LCM.
 6. Done! You will get results of your operation!
@@ -23,14 +23,14 @@ Here is examples of GCD & LCM counter file:
 
 **GCD Examples**:
 
-- **GCD(**2595**;** 1211**) = GCD(**1211**;** 2595**) =** 173
-- **GCD(**5**;** 0**) = GCD(**0**;** 5**) = **173
+- GCD(2595; 1211) = GCD(1211; 2595) = **173**
+- GCD(5; 0) = GCD(0; 5) = **5**
 
 ![GCD_EXAMPLE_1](./screenshots/GCDExample1.png)
 
 **Proof**:
 
-> **GCD(**2595**;** 1211**)**
+> GCD(2595; 1211)
 
 ![](./screenshots/GCDProof1.png)
 
@@ -46,8 +46,8 @@ Here is example: **GCD(5; 0) = 5**
 
 **LCM Examples**:
 
-- **LCM(**2595**;** 1211**) = LCM(**1211**;** 2595**) =** 18165
-- **LCM(**5**;** 0**) = LCM(**0**;** 5**) =** 0
+- LCM(2595; 1211) = LCM(1211; 2595) = **18165**
+- LCM(5; 0) = LCM(0; 5) = **0**
 
 **Proof**:
 
@@ -64,7 +64,7 @@ Here is example: **GCD(5; 0) = 5**
 That all you need is:
 - Python (Software)
 
-No modules needed for now.
+**No modules needed for now.**
 
 
 
