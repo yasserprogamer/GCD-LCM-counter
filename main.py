@@ -1,4 +1,7 @@
-import math as Math
+print("This file is created by: yasserprogamer")
+print("")
+print("For updates check: https://github.com/yasserprogamer/GCD-LCM-counter")
+print("")
 
 def GCD(a, b, PrintMode = False):
     while (b > 0):
@@ -17,26 +20,26 @@ while (mode == "none"):
     for numbersformode,modes in zip(numbersformode, modes):
         print(f'[{numbersformode}] {modes}')
     mode = input("")
-    if(mode.lower() == "gcd" or int(mode) == 1):
-        mode = "GCD"
-        print("GCD mode activated!")
-        print(LeavingModeMessage)
-    elif(mode.lower() == "lcm" or int(mode) == 2):
-        mode = "LCM"
-        print("LCM mode activated!")
-        print(LeavingModeMessage)
-    else:
-        print("Incorrect answer. Try again! \n")
+    try:
+        if(mode.lower() == "gcd" or int(mode) == 1):
+            mode = "GCD"
+            print("GCD mode activated!")
+            #print(LeavingModeMessage)
+        elif(mode.lower() == "lcm" or int(mode) == 2):
+            mode = "LCM"
+            print("LCM mode activated!")
+            #print(LeavingModeMessage)
+        else:
+            print("Incorrect answer. Try again! \n")
+            mode = "none"
+    except ValueError:
+        print("Error: Incorrect answer. If you believe this is a bug or mistake please report.\n")
         mode = "none"
 
 while (mode.lower() == "gcd"):
     try:
         num1 = input("Please input the first number of GCD: ")
-        if(num1 == "CANCEL"):
-            mode = "none"
         num2 = input("Please input the second number of GCD: ")
-        if(num2 == "CANCEL"):
-            mode = "none"
 
         num1 = float(num1)
         num2 = float(num2)
