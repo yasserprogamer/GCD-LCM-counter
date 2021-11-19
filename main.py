@@ -11,6 +11,7 @@ def GCD(a, b, PrintMode = False):
     return a
 
 mode = "none"
+ValueErrorMessage = "Error: Numbers that you have inputted is not an integer or float! Make sure it is clear from syntax errors and inncorrect numbers.\n"
 LeavingModeMessage = "to leave this mode you need to type: CANCEL"
 
 while (mode == "none"):
@@ -33,7 +34,7 @@ while (mode == "none"):
             print("Incorrect answer. Try again! \n")
             mode = "none"
     except ValueError:
-        print("Error: Incorrect answer. If you believe this is a bug or mistake please report.\n")
+        print("Incorrect answer. Try again! \n")
         mode = "none"
 
 while (mode.lower() == "gcd"):
@@ -47,7 +48,7 @@ while (mode.lower() == "gcd"):
         c = GCD(num1, num2, False)
         print(f"GCD({num1};{num2}) = {c} \n")
     except ValueError:
-        print("\nPlease input an integner (only numbers). Do not use strings or booleans. Also it is required\n")
+        print(ValueErrorMessage)
 
 while (mode.lower() == "lcm"):
     try:
@@ -56,4 +57,4 @@ while (mode.lower() == "lcm"):
         c = (num1*num2)/GCD(num1, num2)
         print(f"LCM({num1};{num2}) = {c} \n")
     except ValueError:
-        print("\nPlease input an integner (only numbers). Do not use strings or booleans. Also it is required\n")
+        print(ValueErrorMessage)
