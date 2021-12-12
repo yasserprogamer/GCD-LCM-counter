@@ -1,6 +1,6 @@
 # GCD and LCM Counter 
 
-Welcome to GCD and LCM Python file counter. This file helps you to count GCD and LCM very fast than you do! <a href="./main.py" download>Download file here</a>.
+Welcome to GCD and LCM Python file counter. This file helps you to count GCD and LCM very fast than you do! <a href="https://raw.githubusercontent.com/yasserprogamer/GCD-LCM-counter/main/main.py" download>Download file here</a>.
 
 ### How to use
 
